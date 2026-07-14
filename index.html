@@ -48,7 +48,7 @@
             <div class="max-w-3xl">
                 <div class="mb-6 h-1 w-20 bg-gt-red"></div>
                 <h1 class="text-5xl font-extrabold leading-none text-white sm:text-6xl lg:text-7xl">
-                    Güneydoğu Turbo
+                    Nizip Güneydoğu Turbo
                 </h1>
                 <p class="mt-6 max-w-xl text-lg font-medium leading-8 text-gray-400 sm:text-xl">
                     Motorun nefesini aç, gücü yola indir.
@@ -59,17 +59,15 @@
                 </p>
             </div>
 
-            <div class="relative min-h-80 overflow-hidden rounded-lg border border-gt-red bg-gt-panel/80 p-6 shadow-2xl shadow-red-950/50">
+            <div class="hero-visual relative min-h-80 overflow-hidden rounded-lg border border-gt-red bg-gt-panel/80 p-6 shadow-2xl shadow-red-950/50">
                 <div class="absolute inset-0 bg-[radial-gradient(circle_at_70%_30%,rgba(231,76,60,0.22),transparent_38%)]"></div>
-                <div class="relative flex h-full min-h-72 items-center justify-center rounded-lg border border-dashed border-gt-red bg-gt-darkRed/45">
-                    <div class="text-center">
-                        <div class="mx-auto mb-5 flex h-16 w-16 items-center justify-center rounded-full border border-gt-red text-gt-red">
-                            <span class="text-3xl font-extrabold">T</span>
-                        </div>
-                        <p class="text-sm font-bold uppercase tracking-[0.18em] text-gt-red">
-                            Turbo Mekanik Görsel Alanı
-                        </p>
-                    </div>
+                <div class="hero-visual__frame relative h-full min-h-72 overflow-hidden rounded-lg border border-dashed border-gt-red bg-gt-darkRed/45">
+                    <img
+                        src="turbo-hero.png"
+                        alt="Güneydoğu Turbo hero görseli"
+                        class="hero-visual__image h-full w-full object-cover"
+                        loading="eager"
+                    >
                 </div>
             </div>
         </section>
@@ -78,8 +76,64 @@
             <div class="mx-auto max-w-6xl">
                 <h2 class="section-title text-4xl font-extrabold text-white">UZMANLIK ALANLARIMIZ</h2>
 
-                <div class="mt-12 grid gap-6 md:grid-cols-2">
-                    <article class="service-card flex flex-col rounded-lg bg-gray-100 p-7 text-gray-800 shadow-xl shadow-red-950/25 transition duration-300 hover:-translate-y-1 hover:shadow-2xl hover:shadow-red-950/40">
+                <div class="turbo-gallery mt-12" id="turbo-gallery" aria-label="Turbo tamiri galerisi">
+                    <div class="turbo-gallery__grid">
+                        <button type="button" class="turbo-gallery__item" data-index="0" aria-label="Galeri görseli 1">
+                            <img src="foto/turbo-1.jpg" alt="Nizip turbo tamiri ve bakım" loading="lazy" width="400" height="300">
+                        </button>
+                        <button type="button" class="turbo-gallery__item" data-index="1" aria-label="Galeri görseli 2">
+                            <img src="foto/turbo-2.jpg" alt="Nizip turbo tamiri ve bakım" loading="lazy" width="400" height="300">
+                        </button>
+                        <button type="button" class="turbo-gallery__item" data-index="2" aria-label="Galeri görseli 3">
+                            <img src="foto/turbo-3.jpg" alt="Nizip turbo tamiri ve bakım" loading="lazy" width="400" height="300">
+                        </button>
+                        <button type="button" class="turbo-gallery__item" data-index="3" aria-label="Galeri görseli 4">
+                            <img src="foto/turbo-4.jpg" alt="Nizip turbo tamiri ve bakım" loading="lazy" width="400" height="300">
+                        </button>
+                        <button type="button" class="turbo-gallery__item" data-index="4" aria-label="Galeri görseli 5">
+                            <img src="foto/turbo-5.jpg" alt="Nizip turbo tamiri ve bakım" loading="lazy" width="400" height="300">
+                        </button>
+                        <button type="button" class="turbo-gallery__item" data-index="5" aria-label="Galeri görseli 6">
+                            <img src="foto/turbo-6.jpg" alt="Nizip turbo tamiri ve bakım" loading="lazy" width="400" height="300">
+                        </button>
+                        <button type="button" class="turbo-gallery__item" data-index="6" aria-label="Galeri görseli 7">
+                            <img src="foto/turbo-7.jpg" alt="Nizip turbo tamiri ve bakım" loading="lazy" width="400" height="300">
+                        </button>
+                        <button type="button" class="turbo-gallery__item" data-index="7" aria-label="Galeri görseli 8">
+                            <img src="foto/turbo-8.jpg" alt="Nizip turbo tamiri ve bakım" loading="lazy" width="400" height="300">
+                        </button>
+                        <button type="button" class="turbo-gallery__item" data-index="8" aria-label="Galeri görseli 9">
+                            <img src="foto/turbo-9.jpg" alt="Nizip turbo tamiri ve bakım" loading="lazy" width="400" height="300">
+                        </button>
+                        <button type="button" class="turbo-gallery__item" data-index="9" aria-label="Galeri görseli 10">
+                            <img src="foto/turbo-10.jpg" alt="Nizip turbo tamiri ve bakım" loading="lazy" width="400" height="300">
+                        </button>
+                        <button type="button" class="turbo-gallery__item" data-index="10" aria-label="Galeri görseli 11">
+                            <img src="foto/turbo-11.jpg" alt="Nizip turbo tamiri ve bakım" loading="lazy" width="400" height="300">
+                        </button>
+                        <button type="button" class="turbo-gallery__item" data-index="11" aria-label="Galeri görseli 12">
+                            <img src="foto/turbo-12.jpg" alt="Nizip turbo tamiri ve bakım" loading="lazy" width="400" height="300">
+                        </button>
+                        <button type="button" class="turbo-gallery__item" data-index="12" aria-label="Galeri görseli 13">
+                            <img src="foto/turbo-13.jpg" alt="Nizip turbo tamiri ve bakım" loading="lazy" width="400" height="300">
+                        </button>
+                        <button type="button" class="turbo-gallery__item" data-index="13" aria-label="Galeri görseli 14">
+                            <img src="foto/turbo-14.jpg" alt="Nizip turbo tamiri ve bakım" loading="lazy" width="400" height="300">
+                        </button>
+                        <button type="button" class="turbo-gallery__item" data-index="14" aria-label="Galeri görseli 15">
+                            <img src="foto/turbo-15.jpg" alt="Nizip turbo tamiri ve bakım" loading="lazy" width="400" height="300">
+                        </button>
+                        <button type="button" class="turbo-gallery__item" data-index="15" aria-label="Galeri görseli 16">
+                            <img src="foto/turbo-16.jpg" alt="Nizip turbo tamiri ve bakım" loading="lazy" width="400" height="300">
+                        </button>
+                        <button type="button" class="turbo-gallery__item" data-index="16" aria-label="Galeri görseli 17">
+                            <img src="foto/turbo-17.jpg" alt="Nizip turbo tamiri ve bakım" loading="lazy" width="400" height="300">
+                        </button>
+                    </div>
+                </div>
+
+                <div class="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+                    <article class="service-card flex h-full flex-col rounded-lg bg-gray-100 p-7 text-gray-800 shadow-xl shadow-red-950/25 transition duration-300 hover:-translate-y-1 hover:shadow-2xl hover:shadow-red-950/40">
                         <div class="mb-5 flex h-12 w-12 items-center justify-center rounded-full border border-gt-red text-lg font-extrabold text-gt-red">
                             01
                         </div>
@@ -87,12 +141,12 @@
                         <p class="mt-4 leading-7 text-gray-600">
                             Fabrika standartlarında revizyon ile turbonuzun ömrünü uzatıyor, performansını ilk günkü seviyeye getiriyoruz.
                         </p>
-                        <a href="#" class="mt-8 inline-flex w-fit rounded-md border border-gt-red px-5 py-3 text-sm font-bold text-white transition hover:bg-gt-red hover:text-white">
+                        <a href="#" class="mt-auto inline-flex w-fit rounded-md border border-gt-red px-5 py-3 pt-8 text-sm font-bold text-white transition hover:bg-gt-red hover:text-white">
                             Detaylı Bilgi Al
                         </a>
                     </article>
 
-                    <article class="service-card flex flex-col rounded-lg bg-gray-100 p-7 text-gray-800 shadow-xl shadow-red-950/25 transition duration-300 hover:-translate-y-1 hover:shadow-2xl hover:shadow-red-950/40">
+                    <article class="service-card flex h-full flex-col rounded-lg bg-gray-100 p-7 text-gray-800 shadow-xl shadow-red-950/25 transition duration-300 hover:-translate-y-1 hover:shadow-2xl hover:shadow-red-950/40">
                         <div class="mb-5 flex h-12 w-12 items-center justify-center rounded-full border border-gt-red text-lg font-extrabold text-gt-red">
                             02
                         </div>
@@ -100,33 +154,71 @@
                         <p class="mt-4 leading-7 text-gray-600">
                             Yüksek devirlerde çalışan turbonuzun balansını hassas cihazlarla yapıyor, titremeyi ve ses sorunlarını kökten çözüyoruz.
                         </p>
-                        <a href="#" class="mt-8 inline-flex w-fit rounded-md border border-gt-red px-5 py-3 text-sm font-bold text-white transition hover:bg-gt-red hover:text-white">
+                        <a href="#" class="mt-auto inline-flex w-fit rounded-md border border-gt-red px-5 py-3 pt-8 text-sm font-bold text-white transition hover:bg-gt-red hover:text-white">
                             Detaylı Bilgi Al
                         </a>
                     </article>
 
-                    <article class="service-card flex flex-col rounded-lg bg-gray-100 p-7 text-gray-800 shadow-xl shadow-red-950/25 transition duration-300 hover:-translate-y-1 hover:shadow-2xl hover:shadow-red-950/40">
+                    <article class="service-card flex h-full flex-col rounded-lg bg-gray-100 p-7 text-gray-800 shadow-xl shadow-red-950/25 transition duration-300 hover:-translate-y-1 hover:shadow-2xl hover:shadow-red-950/40">
                         <div class="mb-5 flex h-12 w-12 items-center justify-center rounded-full border border-gt-red text-lg font-extrabold text-gt-red">
                             03
+                        </div>
+                        <h3 class="text-2xl font-extrabold text-gt-red">Partikül Temizleme</h3>
+                        <p class="mt-4 leading-7 text-gray-600">
+                            Egzoz sisteminizdeki tıkanıklıkları temizleyerek motorunuzun performansını geri kazandırıyoruz.
+                        </p>
+                        <button type="button" class="service-card__media service-card__media--lightbox js-lightbox-trigger mt-5" data-lightbox-group="hizmetler" data-lightbox-src="foto/part%C3%BCk%C3%BCl%20temizleme.jpg" aria-label="Partikül temizleme fotoğrafını büyüt">
+                            <img src="foto/part%C3%BCk%C3%BCl%20temizleme.jpg" alt="Nizip partikül temizleme" loading="lazy">
+                        </button>
+                        <a href="#" class="mt-auto inline-flex w-fit rounded-md border border-gt-red px-5 py-3 pt-8 text-sm font-bold text-white transition hover:bg-gt-red hover:text-white">
+                            Detaylı Bilgi Al
+                        </a>
+                    </article>
+
+                    <article class="service-card flex h-full flex-col rounded-lg bg-gray-100 p-7 text-gray-800 shadow-xl shadow-red-950/25 transition duration-300 hover:-translate-y-1 hover:shadow-2xl hover:shadow-red-950/40">
+                        <div class="mb-5 flex h-12 w-12 items-center justify-center rounded-full border border-gt-red text-lg font-extrabold text-gt-red">
+                            04
+                        </div>
+                        <h3 class="text-2xl font-extrabold text-gt-red">Duman Kaçak Testi</h3>
+                        <p class="mt-4 leading-7 text-gray-600">
+                            Motorunuzdaki hava kaçaklarını profesyonel duman testi ile tespit ediyor, performans kayıplarını kökten çözüyoruz.
+                        </p>
+                        <div class="service-card__media mt-5">
+                            <img
+                                src="foto/duman-kaçak-testi.jpg"
+                                alt="Nizip duman kaçak testi"
+                                loading="lazy"
+                                class="w-full h-48 object-cover rounded-lg cursor-pointer"
+                                onclick="openLightbox('foto/duman kaçak testi.jpg')"
+                            >
+                        </div>
+                        <a href="#" class="mt-auto inline-flex w-fit rounded-md border border-gt-red px-5 py-3 pt-8 text-sm font-bold text-white transition hover:bg-gt-red hover:text-white">
+                            Detaylı Bilgi Al
+                        </a>
+                    </article>
+
+                    <article class="service-card flex h-full flex-col rounded-lg bg-gray-100 p-7 text-gray-800 shadow-xl shadow-red-950/25 transition duration-300 hover:-translate-y-1 hover:shadow-2xl hover:shadow-red-950/40">
+                        <div class="mb-5 flex h-12 w-12 items-center justify-center rounded-full border border-gt-red text-lg font-extrabold text-gt-red">
+                            05
                         </div>
                         <h3 class="text-2xl font-extrabold text-gt-red">Elektronik Westgate & Aktüatör Tamiri</h3>
                         <p class="mt-4 leading-7 text-gray-600">
                             Aracınızın elektronik turbo kontrol sistemlerinde yaşanan arızaları profesyonel ekipmanlarla onarıyoruz.
                         </p>
-                        <a href="#" class="mt-8 inline-flex w-fit rounded-md border border-gt-red px-5 py-3 text-sm font-bold text-white transition hover:bg-gt-red hover:text-white">
+                        <a href="#" class="mt-auto inline-flex w-fit rounded-md border border-gt-red px-5 py-3 pt-8 text-sm font-bold text-white transition hover:bg-gt-red hover:text-white">
                             Detaylı Bilgi Al
                         </a>
                     </article>
 
-                    <article class="service-card flex flex-col rounded-lg bg-gray-100 p-7 text-gray-800 shadow-xl shadow-red-950/25 transition duration-300 hover:-translate-y-1 hover:shadow-2xl hover:shadow-red-950/40">
+                    <article class="service-card flex h-full flex-col rounded-lg bg-gray-100 p-7 text-gray-800 shadow-xl shadow-red-950/25 transition duration-300 hover:-translate-y-1 hover:shadow-2xl hover:shadow-red-950/40">
                         <div class="mb-5 flex h-12 w-12 items-center justify-center rounded-full border border-gt-red text-lg font-extrabold text-gt-red">
-                            04
+                            06
                         </div>
                         <h3 class="text-2xl font-extrabold text-gt-red">Arıza Tespit & Analiz</h3>
                         <p class="mt-4 leading-7 text-gray-600">
                             Performans düşüklüğü, ıslık sesi veya egzoz dumanı sorunlarınız için modern arıza tespit cihazlarımızla kesin çözüm üretiyoruz.
                         </p>
-                        <a href="#" class="mt-8 inline-flex w-fit rounded-md border border-gt-red px-5 py-3 text-sm font-bold text-white transition hover:bg-gt-red hover:text-white">
+                        <a href="#" class="mt-auto inline-flex w-fit rounded-md border border-gt-red px-5 py-3 pt-8 text-sm font-bold text-white transition hover:bg-gt-red hover:text-white">
                             Detaylı Bilgi Al
                         </a>
                     </article>
@@ -246,13 +338,7 @@
                 </div>
 
                 <div class="mt-10 overflow-hidden rounded-lg border border-gt-red/35 shadow-2xl shadow-red-950/40">
-                    <iframe
-                        title="Güneydoğu Turbo Konum"
-                        src="https://www.google.com/maps?q=Ek%20Sanayi%20Sit.%2011%20Nolu%20Cd.%20No%3A19%20Nizip%2FGAZ%C4%B0ANTEP&output=embed"
-                        class="h-[360px] w-full"
-                        loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade">
-                    </iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3186.6154265474906!2d37.7820769!3d36.995111900000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x15318fee14f01873%3A0xb69dba3e0c8c2924!2zR8OcTkVZRE_EnlUgVFVSQk8!5e0!3m2!1str!2str!4v1783026875323!5m2!1str!2str" width="100%" height="350" style="border:0; border-radius: 15px; margin-top: 20px;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
                 </div>
             </div>
         </section>
@@ -264,6 +350,140 @@
             <p class="font-bold text-gt-red">Performans odaklı karanlık tema</p>
         </div>
     </footer>
+
+    <div id="gallery-lightbox" class="gallery-lightbox" hidden aria-hidden="true" role="dialog" aria-modal="true" aria-label="Galeri önizleme">
+        <button type="button" class="gallery-lightbox__close" aria-label="Galeriyi kapat">&times;</button>
+        <button type="button" class="gallery-lightbox__nav gallery-lightbox__nav--prev" aria-label="Önceki fotoğraf">&#10094;</button>
+        <button type="button" class="gallery-lightbox__nav gallery-lightbox__nav--next" aria-label="Sonraki fotoğraf">&#10095;</button>
+        <div class="gallery-lightbox__content">
+            <img class="gallery-lightbox__image" src="" alt="Nizip turbo tamiri ve bakım">
+            <p class="gallery-lightbox__counter" aria-live="polite"></p>
+        </div>
+    </div>
+
+    <script>
+        (function () {
+            var lightbox = document.getElementById('gallery-lightbox');
+            if (!lightbox) return;
+
+            var lightboxImage = lightbox.querySelector('.gallery-lightbox__image');
+            var counter = lightbox.querySelector('.gallery-lightbox__counter');
+            var closeBtn = lightbox.querySelector('.gallery-lightbox__close');
+            var prevBtn = lightbox.querySelector('.gallery-lightbox__nav--prev');
+            var nextBtn = lightbox.querySelector('.gallery-lightbox__nav--next');
+            var currentItems = [];
+            var currentIndex = 0;
+
+            function getGroupItems(group) {
+                if (group === 'gallery') {
+                    var gallery = document.getElementById('turbo-gallery');
+                    if (!gallery) return [];
+
+                    return Array.prototype.slice.call(gallery.querySelectorAll('.turbo-gallery__item')).map(function (item) {
+                        var img = item.querySelector('img');
+                        return {
+                            src: img.getAttribute('src'),
+                            alt: img.getAttribute('alt') || 'Nizip turbo tamiri ve bakım'
+                        };
+                    });
+                }
+
+                return Array.prototype.slice.call(document.querySelectorAll('[data-lightbox-group="' + group + '"]')).map(function (trigger) {
+                    var img = trigger.querySelector('img');
+                    return {
+                        src: trigger.getAttribute('data-lightbox-src') || (img && img.getAttribute('src')),
+                        alt: (img && img.getAttribute('alt')) || 'Nizip turbo tamiri ve bakım'
+                    };
+                });
+            }
+
+            function setNavigationState() {
+                var hasMultiple = currentItems.length > 1;
+                prevBtn.hidden = !hasMultiple;
+                nextBtn.hidden = !hasMultiple;
+                counter.hidden = !hasMultiple;
+            }
+
+            function updateLightbox() {
+                var item = currentItems[currentIndex];
+                lightboxImage.setAttribute('src', item.src);
+                lightboxImage.setAttribute('alt', item.alt);
+                counter.textContent = (currentIndex + 1) + ' / ' + currentItems.length;
+                setNavigationState();
+            }
+
+            function openLightbox(group, index) {
+                if (typeof group === 'string' && group === 'foto/duman kaçak testi.jpg') {
+                    currentItems = [{
+                        src: 'foto/duman-kaçak-testi.jpg',
+                        alt: 'Nizip duman kaçak testi'
+                    }];
+                    currentIndex = 0;
+                } else {
+                    currentItems = getGroupItems(group);
+                    if (!currentItems.length) return;
+
+                    currentIndex = index;
+                }
+
+                updateLightbox();
+                lightbox.hidden = false;
+                lightbox.setAttribute('aria-hidden', 'false');
+                document.body.classList.add('gallery-lightbox-open');
+                closeBtn.focus();
+            }
+
+            function closeLightbox() {
+                lightbox.hidden = true;
+                lightbox.setAttribute('aria-hidden', 'true');
+                document.body.classList.remove('gallery-lightbox-open');
+                lightboxImage.setAttribute('src', '');
+            }
+
+            function showPrev() {
+                currentIndex = (currentIndex - 1 + currentItems.length) % currentItems.length;
+                updateLightbox();
+            }
+
+            function showNext() {
+                currentIndex = (currentIndex + 1) % currentItems.length;
+                updateLightbox();
+            }
+
+            var gallery = document.getElementById('turbo-gallery');
+            if (gallery) {
+                Array.prototype.forEach.call(gallery.querySelectorAll('.turbo-gallery__item'), function (item, index) {
+                    item.addEventListener('click', function () {
+                        openLightbox('gallery', index);
+                    });
+                });
+            }
+
+            Array.prototype.forEach.call(document.querySelectorAll('.js-lightbox-trigger'), function (trigger, index) {
+                trigger.addEventListener('click', function () {
+                    openLightbox(trigger.getAttribute('data-lightbox-group') || 'hizmetler', index);
+                });
+            });
+
+            closeBtn.addEventListener('click', closeLightbox);
+            prevBtn.addEventListener('click', showPrev);
+            nextBtn.addEventListener('click', showNext);
+
+            lightbox.addEventListener('click', function (event) {
+                if (event.target === lightbox) closeLightbox();
+            });
+
+            document.addEventListener('keydown', function (event) {
+                if (lightbox.hidden) return;
+
+                if (event.key === 'Escape') closeLightbox();
+                if (event.key === 'ArrowLeft') showPrev();
+                if (event.key === 'ArrowRight') showNext();
+            });
+
+            window.openLightbox = openLightbox;
+        })();
+    </script>
 
 </body>
 </html>
